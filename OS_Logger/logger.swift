@@ -19,7 +19,7 @@ public enum LoggerCategory: String {
     
     var log: OSLog {
         // The subsystem of your app ("com.google.app")
-        let subsystem = "enter.your.subsystem"
+        let subsystem = "com.your.subsystem"
         return OSLog(subsystem: subsystem, category: self.rawValue)
     }
 }
@@ -39,7 +39,7 @@ public enum LoggerType {
         case .info:
             return .default
         case .debug:
-            return .debug
+            return .default
         case .warning:
             return .error
         case .error:

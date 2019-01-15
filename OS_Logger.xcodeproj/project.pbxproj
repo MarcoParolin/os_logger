@@ -13,6 +13,7 @@
 		E827684621EDE963007763D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E827684521EDE963007763D0 /* Assets.xcassets */; };
 		E827684921EDE963007763D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E827684721EDE963007763D0 /* LaunchScreen.storyboard */; };
 		E827685121EDE99B007763D0 /* logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E827685021EDE99B007763D0 /* logger.swift */; };
+		E829442B21EE232900FCE6E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E829442A21EE232900FCE6E9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E827684821EDE963007763D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E827684A21EDE963007763D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E827685021EDE99B007763D0 /* logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logger.swift; sourceTree = "<group>"; };
+		E829442A21EE232900FCE6E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		E827683221EDE960007763D0 = {
 			isa = PBXGroup;
 			children = (
+				E829442A21EE232900FCE6E9 /* README.md */,
 				E827683D21EDE960007763D0 /* OS_Logger */,
 				E827683C21EDE960007763D0 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				E827684921EDE963007763D0 /* LaunchScreen.storyboard in Resources */,
 				E827684621EDE963007763D0 /* Assets.xcassets in Resources */,
+				E829442B21EE232900FCE6E9 /* README.md in Resources */,
 				E827684421EDE960007763D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
